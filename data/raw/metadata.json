@@ -1,0 +1,32 @@
+[
+  {
+    "namn": "region",
+    "text": "Region",
+    "info": "<h2>Regioner</h2><p>Avser patientens hemortslän, dvs. folkbokföringsort.</p>"
+  },
+  {
+    "namn": "alder",
+    "text": "Ålder",
+    "info": "<h2>Ålder</h2><p>Patientens ålder vid årets slut.</p>"
+  },
+  {
+    "namn": "kon",
+    "text": "Kön",
+    "info": ""
+  },
+  {
+    "namn": "matt",
+    "text": "Mått",
+    "info": "<h2>Mått</h2><p><b>Ingrepp</b><br />\"Antal ingrepp\" ska tolkas som antal operationskoder som rapporterats till patientregistret.</p><p><b>Antal ingrepp per 100 000 invånare</b><br />Antal operationskoder dividerat med antal invånare i respektive län multiplicerat med 100 000.</p><p><b>Vårdtillfälle</b><br />Vårdtillfälle avgränsas av in- och utskrivning inom ett medicinskt verksamhetsområde (klinik/basenhet/motsvarande). Utskrivning skall ligga till grund för beräkning av antal vårdtillfällen under året.</p><p><b>Antal vårdtillfällen per 100 000 invånare</b><br />Antal vårdtillfällen med operationskod dividerat med antal invånare i respektive län multiplicerat med 100 000.</p><p><b>Antal patienter</b><br />Vid beräkning av antal patienter har varje unikt personnummer räknats endast en gång per år, operation och geografiskt område. Detta gör att till exempel summan av antal patienter per femställig operationskod inom ett operationskapitel överstiger antalet patienter inom kapitlet och att summan av antal patienter per län överstiger antalet patienter i riket. <font color=\"#ff0000\">OBSERVERA</font> att måttet patienter endast undantagsvis kan adderas.</p><p><b>Antal patienter per 100 000 invånare</b><br />Antal patienter med operationskod dividerat med antal invånare i respektive län multiplicerat med 100 000.</p>"
+  },
+  {
+    "namn": "ar",
+    "text": "År",
+    "info": ""
+  },
+  {
+    "namn": "operation",
+    "text": "Operation",
+    "info": "<h2>Operationer</h2><p>Operationstyp (kirurgisk vårdåtgärd) enligt aktuell klassifikation av vårdåtgärder (KVÅ). Här finns den nuvarande klassifikationen i sin helhet: <a href=\"https://klassifikationer.socialstyrelsen.se/KVA_Kirurgiska/\" target=\"_blank\">https://klassifikationer.socialstyrelsen.se/KVA_Kirurgiska/</a>. Mer information om åtgärdskoder finns här: <a href=\"https://www.socialstyrelsen.se/statistik-och-data/klassifikationer-och-koder/kva/\" target=\"_blank\">https://www.socialstyrelsen.se/statistik-och-data/klassifikationer-och-koder/kva/</a></p><p>Från 1 januari 2021 utgick kapitel P och ersattes av kapitel V Kärlkirurgiska koder.</p>"
+  }
+]
